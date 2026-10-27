@@ -13,45 +13,50 @@
             margin: 40px auto;
             padding: 0 20px;
         }
-        h1, h2 { color: #111; }
+        h1 { color: #111; font-size: 2rem; margin-bottom: 0.5rem; }
+        h3 { color: #222; margin-top: 1.5rem; font-size: 1.2rem; }
         hr { border: none; border-top: 1px solid #e0e0e0; margin: 25px 0; }
-        .last-updated { color: #666; font-size: 0.9em; margin-bottom: 25px; }
+        .effective-date { color: #666; font-size: 0.95rem; margin-bottom: 20px; font-weight: 500; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        code { background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; font-family: monospace; }
         a { color: #0066cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
 
-    <h1>Privacy Policy</h1>
-    <div class="last-updated">Effective Date: October 27, 2026</div>
+    <h1>Privacy Policy for CrispFlow</h1>
+    <div class="effective-date">Effective Date: October 27, 2026</div>
 
     <p>This Privacy Policy applies to the <strong>CrispFlow</strong> mobile application (the "App") developed by <strong>Couch Potato Dev</strong> ("we", "us", or "our").</p>
 
     <hr>
 
-    <h2>1. Data Collection and Usage</h2>
+    <h3>1. Data Collection and Usage</h3>
     <p>CrispFlow is designed as an offline-first, local-only video processing utility. We prioritize your privacy and follow strict data-minimization practices:</p>
     <ul>
-        <li><strong>No Personal Identifiable Information (PII):</strong> We do not collect names, phone numbers, contact lists, or personal account credentials.</li>
+        <li><strong>No Personal Identifiable Information (PII):</strong> We do not collect names, phone numbers, contact lists, email addresses, or personal account credentials.</li>
         <li><strong>100% On-Device Processing:</strong> All video rendering, frame rate interpolation, and resolution upscaling are performed entirely on your device hardware using local libraries. No video, audio, or media metadata is ever uploaded to external servers, cloud services, or remote APIs.</li>
+        <li><strong>Zero Network Access:</strong> The App does not require, declare, or use internet access permissions (<code>android.permission.INTERNET</code>).</li>
     </ul>
 
-    <h2>2. Device Storage and Permissions</h2>
+    <h3>2. Device Storage and Permissions</h3>
     <p>To perform its intended functions, CrispFlow requires access to select and save video files using standard Android platform APIs (such as the Storage Access Framework and MediaStore):</p>
     <ul>
         <li><strong>Local File Access:</strong> Permissions are used exclusively to import the specific video files you choose and write the rendered output MP4 files back to your device storage. We do not inspect, index, or collect any other files on your device.</li>
     </ul>
 
-    <h2>3. Third-Party Services and Analytics</h2>
+    <h3>3. Third-Party Services and Analytics</h3>
     <p>CrispFlow does not integrate third-party analytics trackers, advertising networks, diagnostic telemetry, or tracking SDKs.</p>
 
-    <h2>4. Children's Privacy</h2>
+    <h3>4. Children's Privacy</h3>
     <p>The App does not knowingly collect or solicit personal information from children under the age of 13.</p>
 
-    <h2>5. Changes to This Privacy Policy</h2>
+    <h3>5. Changes to This Privacy Policy</h3>
     <p>We may update this Privacy Policy from time to time. Any changes will be posted directly to this page with an updated "Effective Date."</p>
 
-    <h2>6. Contact Us</h2>
+    <h3>6. Contact Us</h3>
     <p>If you have questions or concerns regarding this Privacy Policy or CrispFlow, please reach out via email:</p>
     <p><strong>Email:</strong> <a href="mailto:businesscaveedits@gmail.com">businesscaveedits@gmail.com</a></p>
 
